@@ -1,0 +1,114 @@
+<!-- Para comentários -->
+ <!-- lang é idioma, posso colocar qual quiser, ali eu mudei para o
+  pt br -->
+ 
+  <!--Em "title" linha 12, eu posso trocar o nome e salvar com ctrl+s, e
+  lá o nome da aba no google, já vai alterar -->
+ 
+  <!--Title é as regras, o body é o conteúdo, então title é meio que 
+  padrão, enquanto que o body tu pode escrever. -->
+
+<!--Páginas WEB são resumidas em "CABEÇALHO = Header", "CONTEÚDO = Main" 
+e "RODAPÉ = Footer"-->
+
+<!-- h1 é o titúlo lá no corpo, é bom utilizar só um desse -->
+ <!-- H2 pode usar mais de uma vez-->
+ <!-- main é o conteúdo principal-->
+
+<!--****QUANDO FOR PESQUISAR ALGO NO GERMINI COM CÓDIGO, COLOCAR
+TRÊS CRASES NO INICIO E NO FIM " ```JS CÓDIGO ```  ME AJUDA?"-->
+
+ <!--AQUI É SEGUINDO A AULA DO PROFESSOR.-->
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <!-- No head eu preciso falar pro html seguir os comandos do CSS, para 
+  isso, utiliza-se a tag "link + nome do arquivo no caso é styles.css"-->
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styles.css">
+<!--Esse link é para referenciar o CSS nesse HTML, para referenciar o Java
+Script, utiliza-se o "script src="(lá embaixo antes de fechaar o "body")-->
+     <title>Atletas Brasileiros</title>
+ </head>
+ <body>
+     <header>
+         <h1>Atletas Brasileiros</h1>
+     </header>
+     <main>
+         <section>
+         <input type="text" placeholder="O que você quer buscar?" 
+         id="campo-pesquisa">
+         <button onclick="pesquisar()">Pesquisar</button>
+     </section>
+<!--É bom criar classes, ajuda na hora de estilizar no CSS, pois
+você consegue mudar/pintar/estilizar apenas aquele paragráfo
+quando está com class-->
+     <section class="resultados-pesquisa"
+     id="resultados-pesquisa">
+
+<!--desse jeito abaixo é para colocar o título (h2) como referência, com um link
+Caso queira apenas um título normal, colocar igual o h1-->
+<!-- O ID é para referenciar o paragráfo no JS-->
+     <!--   <div class="item-resultado"> 
+            <h2> 
+                <a href="#" target="_blank" >Rebeca Andrade</a>
+            </h2>
+            <p class="descrição-meta"> Rebeca Andrade: A maior medalhista olímpica brasileira. Rebeca Rodrigues 
+                de Andrade é um nome que brilha no cenário esportivo brasileiro e mundial. 
+                A ginasta, natural de Guarulhos, São Paulo, conquistou o coração dos brasileiros 
+                com sua determinação e talento.</p>
+    <!- quando utiliza tag "a" é para colocar um link-->
+     <!-- O target "blank" é para quando clicar no link, ele abrir em outra guia-->
+     <!--           <a href="https://pt.wikipedia.org/wiki/Rebeca_Andrade" target="_blank">Mais informações</a>
+        </div>
+
+        <div class="item-resultado">
+            <h2>
+                <a href="#" target="_blank">Rayssa Leal</a>
+            </h2>
+            <p class="descrição-meta">Rayssa Leal: A Fadinha do skate. Com apenas [idade], Rayssa já conquistou o mundo do skate com sua habilidade e carisma. Natural de [cidade], ela é um exemplo de superação e talento para jovens atletas.</p>
+            <a href="https://pt.wikipedia.org/wiki/Rayssa_Leal" target="_blank">Mais informações</a>
+        </div>
+        
+        <div class="item-resultado">
+            <h2>
+                <a href="#" target="_blank">Beatriz Souza</a>
+            </h2>
+            <p class="descrição-meta">Beatriz Souza: A nova estrela do judô brasileiro. Com sua técnica impecável e força de vontade, Beatriz conquistou [medalhas]. Natural de [cidade], ela é um orgulho para o esporte nacional.</p>
+            <a href="https://pt.wikipedia.org/wiki/Beatriz_Souza" target="_blank">Mais informações</a>
+        </div> -->
+    </section>
+     </main> 
+     <!-- AQUI É A PARTE QUE ESTOU TENTANDO INSERIR NA PAGINA
+     <ul>
+        <li> Neymar Junior (PSG):</li> 
+        <p>Neymar Junior ganhou 1 libertadores, 3 mundiais e 3 Champions league</p>
+        <li>Casemiro (Real Madrid):</li>
+        <P>Casemiro ganhou 2 champions league, 1 libertadores e 2 mundiais</P>
+        <li>Vinicius Junior (Real Madrid):</li>
+        <p>Vinicius Junior ganhou 1 libertadores, 1 champions league e 2 mundiais</p>
+        <li>Rodrigo Rayo (Real Madrid):</li>
+        <p>Rodrigo ganhou 1 champions league e 1 mundial</p> 
+        <li>Alisson (Liverpool):</li>
+        <p>Alisson ganhou 1 champions league e 1 mundial </p>
+    </ul>-->
+
+     <footer>
+         <p> 2020 - 2024. Todos os direitos reservados.</p>
+         <p>Entre em contato pelo email: matheus90@assessor.com ou pelo número: (24)999999999</p>
+     </footer>
+     <script src="dados.js"></script>
+     <script src="app.js"></script>
+ </body>
+ </html>
+ 
+
+
+
+
+
+
+
+
+ 
